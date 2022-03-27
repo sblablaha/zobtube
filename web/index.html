@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ZobTube</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+    <!-- LOAD CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/pgwslider.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/pgwslideshow.min.css">
+    <link rel="stylesheet" href="assets/css/megamenu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- PRE LOADER -->
+      <div class="preloader">
+         <div class='uil-ring-css' style='transform:scale(0.45);'><div></div></div>
+      </div>
+    <!-- Start Header -->
+    <header>
+        <div class="header-top hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header-top-area">
+                            <div class="site-info left">
+                                <div class="mail-address">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <a href="mailto:nfo@themeix.com">ZobTube, Passion of the Zob, Lube for the Tube!</a>
+                                </div>
+                            </div>
+                            <div class="user-info right">
+                                <div class="upload-opt">
+                                    <i class="fa fa-upload"></i>
+                                    <a href="#upload-options" data-bs-toggle="modal">upload video</a>
+                                    <span class="sepator">|</span>
+                                </div>
+                                <div class="login-info">
+                                    <i class="fa fa-lock"></i>
+                                    <a href="#login-info" data-bs-toggle="modal">login</a>
+                                </div>
+                            </div>
+                            <div id="upload-options" class="modal fade">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title">Upload Your Video</h3>
+                                            <button class="btn btn-sm btn-default close-btn" data-bs-dismiss="modal">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="#" method="post" class="upload-form" enctype="multipart/form-data">
+                                                <div class="form-group">
+                                                    <label for="video_title">Video Title</label>
+                                                    <input type="text" class="form-control" id="video_title" placeholder="Video Title">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="video-desc">Video Description</label>
+                                                    <textarea name="video-desc" id="video-desc" class="form-control" placeholder="Video Description"></textarea>
+                                                </div>
+                                                <div class="form-group mb-3">
+                                                    <label for="upload_file" class="custom-file-upload">Select Your File
+                                                        <input type="file" name="upload_file" id="upload_file">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-primary btn-lg">Upload</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="login-info" class="modal fade">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title">Login Here..</h3>
+                                            <button data-bs-dismiss="modal" class="btn btn-sm btn-default close-btn">&times;</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="#" method="post" class="login-form">
+                                                <div class="form-group">
+                                                    <label for="user_name">Username :</label>
+                                                    <input type="text" name="user_name" class="form-control" id="user_name" placeholder="username">
+                                                </div>
+                                                <div class="form-group mb-3">
+                                                    <label for="user_password">Password :</label>
+                                                    <input type="password" name="user_password" class="form-control" id="user_password" placeholder="password">
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-primary btn-lg">Login</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation area starts -->
+        <div class="main-menu">
+            <!-- Start Navigation -->
+            <nav class="header-section pin-style">
+                <div class="container">
+                       <div class="mod-menu">
+                        <div class="row">
+                            <div class="col-3">
+                                <a href="index.html " title="logo" class="logo"><img src="assets/images/logo.png" alt="logo"></a>
+                            </div>
+                            <div class="col-9 nopadding">
+                                <div class="main-nav rightnav">
+                                    <ul class="top-nav">
+                                        <li class="visible-this d-md-none menu-icon">
+                                            <a href="#" class="navbar-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#menu" aria-expanded="false"><i class="fa fa-bars"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div id="menu" class="collapse header-menu">
+                                        <ul class="nav themeix-nav">
+                                            <li><a href="#/">Home</a> </li>
+                                            <li><a href="#/categories">Categories</a> </li>
+                                            <li><a href="#/actors">Actors</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </nav>
+            <!-- end navigation -->
+        </div>
+        <!-- Navigation area ends -->
+    </header>
+    <!-- End Header -->
+    <!-- Start Page Content Area -->
+    <div id="page_view_content" class="page-content-area themeix-ptb" style="display:none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-8">
+                    <!-- Start Video Post -->
+                    <div class="video-post-wrapper">
+                        <div class="video-posts-video">
+                            <div class="embed-responsive embed-responsive-16by9 ratio ratio-16x9">
+                                <!-- <iframe src="https://www.youtube.com/embed/6jiNS_4CEug" class="embed-responsive-item"></iframe> -->
+                                <video controls><source src="video"></video>
+                            </div>
+                            <h3 id="page_view_video_title" class="post-title mt-3">...</h3>
+                        </div>
+                        <div class="video-posts-data">
+                            <div class="video-post-title">
+                                <span class="video-icons"><i class="fa fa-info-circle"></i></span>
+                                <div class="video-post-info">
+                                    <h4><a id="page_view_video_channel" href="#" onClick="main()">...</a></h4>
+                                    <div class="video-post-date">
+                                        <span><i class="fa fa-calendar"></i></span>
+                                        <p>april 15, 2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-post-counter">
+                                <div class="video-post-viewers">
+                                    <h3>241,050 views</h3>
+                                </div>
+                                <div class="video-like">
+                                    <span><i class="far fa-thumbs-up"></i></span>
+                                    <p>421825</p>
+                                </div>
+                                <div class="video-dislike">
+                                    <span><i class="far fa-thumbs-down"></i></span>
+                                    <p>9694</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start Tags And Share Options -->
+                        <div class="tags-and-share">
+                            <div class="post-tags widget">
+                                <ul class="tagcloud">
+                                    <li><a href="#">Cat</a></li>
+                                    <li><a href="#">my pets</a></li>
+                                    <li><a href="#">Sports</a></li>
+                                    <li><a href="#">Songs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Tags And Share Options -->
+                    </div>
+                    <!-- End Video Post -->
+                </div>
+                <!-- Start Popular Videos -->
+                <div class="col-lg-3 col-md-4">
+                    <!-- End Popular Videos -->
+                    <!-- Start Recent Videos -->
+                    <div class="popular-videos">
+                        <div class="themeix-section-h">
+                            <span class="heading-icon"><i class="fa fa-play" aria-hidden="true"></i></span>
+                            <h3>Recent Videos</h3>
+                        </div>
+                    <div class="single-video">
+                        <div class="video-img">
+                            <a href="single-video.html">
+                                <img class="lazy" data-src="assets/images/thumbnails/12.jpg" alt="Video" />
+                            </a>
+                            <span class="video-duration">5.28</span>
+                        </div>
+                        <div class="video-content">
+                            <h4><a href="single-video.html" class="video-title">Avocado Chickpea Salad </a></h4>
+                            <div class="video-counter">
+                                <div class="video-viewers">
+                                    <span class="fa fa-eye view-icon"></span>
+                                    <span>241,021</span>
+                                </div>
+                                <div class="video-feedback">
+                                    <div class="video-like-counter">
+                                        <span class="far fa-thumbs-up like-icon"></span>
+                                        <span>2140</span>
+                                    </div>
+                                    <div class="video-like-counter">
+                                         <span class="far fa-thumbs-down dislike-icon"></span>
+                                        <span>2140</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-video">
+                        <div class="video-img">
+                            <a href="single-video.html">
+                                <img class="lazy" data-src="assets/images/thumbnails/13.jpg" alt="Video" />
+                                 <noscript>
+                                    <img src="images/thumbnails/13.jpg" alt="video" />
+                                </noscript>
+                            </a>
+                            <span class="video-duration">5.28</span>
+                        </div>
+                        <div class="video-content">
+                            <h4><a href="single-video.html" class="video-title">Honey Lime Sriracha</a></h4>
+                            <div class="video-counter">
+                                <div class="video-viewers">
+                                    <span class="fa fa-eye view-icon"></span>
+                                    <span>241,021</span>
+                                </div>
+                                <div class="video-feedback">
+                                    <div class="video-like-counter">
+                                        <span class="far fa-thumbs-up like-icon"></span>
+                                        <span>2140</span>
+                                    </div>
+                                    <div class="video-like-counter">
+                                         <span class="far fa-thumbs-down dislike-icon"></span>
+                                        <span>2140</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="single-video">
+                            <div class="video-img">
+                            <a href="single-video.html">
+                                <img class="lazy" data-src="assets/images/thumbnails/19.jpg" alt="Video" />
+                            </a>
+                                <span class="video-duration">25.02</span>
+                            </div>
+                            <div class="video-content">
+                                <h4><a href="single-video.html" class="video-title">Vegan Dessert Recipes</a></h4>
+                                <div class="video-counter">
+                                    <div class="video-viewers">
+                                        <span class="fa fa-eye view-icon"></span>
+                                        <span>91,021</span>
+                                    </div>
+                                    <div class="video-feedback">
+                                        <div class="video-like-counter">
+                                            <span class="far fa-thumbs-up like-icon"></span>
+                                            <span>5140</span>
+                                        </div>
+                                        <div class="video-like-counter">
+                                            <span class="far fa-thumbs-down dislike-icon"></span>
+                                            <span>2040</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Recent Videos -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Page Content Area -->
+
+    <!-- Stat Page Import Area -->
+    <div id="page_import_content" class="page-content-area themeix-ptb" style="display:none;">
+        <div class="container">
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+              </tbody>
+            </table>
+
+        </div>
+    </div>
+    <!-- End Page Import Area -->
+        <div class="scroll-top">
+            <div class="scroll-icon">
+                <i class="fa fa-angle-up"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Area -->
+
+    <!-- Load JS -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/pgwslideshow.min.js"></script>
+    <script src="assets/js/pgwslider.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.lazy.min.js"></script>
+    <script src="assets/js/jquery.lazy.plugins.min.js"></script>
+    <script src="assets/js/megamenu.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="zobtube.js"></script>
+</body>
+
+</html>
